@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.btns {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #384fff;
+    z-index: 1000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.btns_menu {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    background-color: #7686ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+section {
+    width: 100%; 
+    height: 1200px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    color : black
+    
+}
+.myimg {
+    border-radius: 50px;
+    border: 10px solid #333;
+}
+
+#자기소개 {
+    background-color: #d5f3ff; 
+}
+
+#목업 {
+    background-color: #ffffff;
+}
+
+#목업 img {
+    width: 500px;
+    height: auto;
+}
+
+#목업2 img {
+    width: 800px;
+    height: 800px;
+    margin: 10px;
+}
+
+#목업 {
+    background-color: #d5f3ff; 
+}
+
+#목업2 img {
+    width: 500px;
+    height: auto;
+}
+
+#인포그래픽 {
+    background-color: #d5f3ff; 
+}
+
+h1, h2, h3 {
+    margin: 10px 0;
+}
+#자기소개 img {
+    height: auto;
+    background-color: #d5f3ff; 
+}
+
+#광고포스터 img {
+    width: 500px;
+    height: 700px;
+    margin: 10px;
+}
+
+#자기소개 .wrapper {
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    gap: 20px;
+}
+
+
+#자기소개 .content {
+    display: block;
+    margin-right: 20px;
+}
+
+#자기소개 .subcontent {
+    display: block;
+    align-items: center;
+}
+
+#광고포스터 img {
+    width: 500px;
+    height: auto;
+
+}
+
+#인포스래픽 img {
+    width: 800px;
+    height: 800px;
+    margin: 10px;
+}
+
+#광고포스터 .content {
+    justify-content: center;
+
+}
+
+#인포그래픽 .content {
+    justify-content: center;
+
+
+}
+
+#목업 .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#광고포스터 .content {
+    margin-top: 100px;
+}
+#인포그래픽 .content {
+    margin-top: 60px;
+}
+
+h1 {
+    font-size: 70px;
+}
+#목업 .content {
+    margin-top: 70px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 40px;
+}
